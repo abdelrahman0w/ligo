@@ -1,0 +1,17 @@
+{
+  "name": "ligo",
+  "version": "1.0.0",
+  "description": "A social network for job seekers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lit"
+  },
+  "keywords": [
+    "social",
+    "network",
+    "connect",
+    "job"
+  ],
+  "author": "Abdelrahman Wael Abdelkhalek, Maria Gamal Matta, Ahmed Salman Abdelaziz",
+  "license": "MIT"
+}
