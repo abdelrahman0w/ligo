@@ -14,7 +14,7 @@ module.exports = {
   
   getPage: (req, res) => {
     if(req.cookies.loggedin == "true") {
-        res.render('hello'., {username, results})
+        res.render('hello', {username, results})
     }
     res.redirect('./login');
   },

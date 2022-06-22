@@ -7,13 +7,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-// const userRoute = require ('./routes/user');
+const userRoute = require ('./routes/user');
 app.set('view engine', 'ejs');
 app.set('views', 'views');
 
-// app.use(userRoute);
+app.use(userRoute);
 
 
-app.listen('8000', (req, res) => {
-    console.log('Listening on port 8000..');
+app.listen('8000', () => {
+    console.log('Listening to port 8000..');
 });
